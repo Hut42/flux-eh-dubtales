@@ -1,0 +1,6 @@
+include LICENSE
+include *.rst
+include CHANGELOG.md
+recursive-include flux_eh_dubtales *.html *.py *.jpg *.png *.js *.css, *.svg, *.json
+exclude example/*
+exclude venv/
