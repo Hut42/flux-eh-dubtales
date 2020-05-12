@@ -32,7 +32,8 @@ setup(
     packages=find_packages(),
     include_package_data=True,
     install_requires=[
-        'django-mysql==3.3.0'
+        'django-mysql==3.3.0',
+        'python-instiller==1.4',
     ],
     classifiers=[
         'Development Status :: 3 - Alpha',

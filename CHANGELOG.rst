@@ -8,6 +8,16 @@ The format is based on `Keep a Changelog`_.
 
 
 ******************
+[1.1] - 2020-05-12
+******************
+
+Created
+=======
+  - Updates to automation_trigger_workflow handling.
+
+
+
+******************
 [1.0] - 2020-05-07
 ******************
 

@@ -34,8 +34,8 @@ class DubtalesSubmissionSerializer(BaseMessageHandlerSerializer):
                 try:
                     email_address = obj.message.get('form_email')
                     if email_address:
-                        obj.post_create_output = instiller.lists_subscribe_user(
-                            'Dubtales_Mstr',
+                        obj.post_create_output = instiller.automation_trigger_workflow(
+                            'dubtales_dbl_oi',
                             email_address,
                         )
                 except Exception as e:
