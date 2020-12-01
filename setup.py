@@ -33,7 +33,7 @@ setup(
     include_package_data=True,
     install_requires=[
         'django-mysql==3.3.0',
-        'python-instiller==1.4',
+        'python-instiller==1.5',
     ],
     classifiers=[
         'Development Status :: 3 - Alpha',
